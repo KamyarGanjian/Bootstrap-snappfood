@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/vazir-font-v16.1.0/Vazir.eot") format("embedded-opentype"),
+    url(../fonts/vazir-font-v16.1.0/Vazir.woff2) format("woff2"),
+    url(../fonts/vazir-font-v16.1.0/Vazir.woff) format("woff"),
+    url(../fonts/vazir-font-v16.1.0/Vazir.ttf) format("truetype");
+}
+
+body {
+    font-family: "vazir" !important;
+    overflow-x: hidden;
+}
+
+.bg-img {
+    background-image: url(../images/output-onlinepngtools.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+.address {
+    z-index: 100;
+    box-sizing: border-box;
+    width: 30vw;
+    min-width: 16.875rem;
+    max-width: 60%;
+    height: 3.5rem;
+    border: 0.0625rem solid rgba(58, 61, 66, 0.12);
+    border-radius: 5rem;
+    box-shadow: rgb(58 61 66 / 6%) 0px 1px 0px, rgb(0 0 0 / 20%) 0px 4px 16px -8px;
+}
+
+.text {
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    background-color: rgb(255, 0, 166);
+    border: none;
+}
+
+.nav-link {
+    color: black;
+}
+
+.input-group {
+    width: 400px;
+}
+
+.nav2 {
+    background: rgba(225, 210, 225, 0.6);
+    overflow: auto;
+    width: 100%;
+    border-radius: 10px;
+    height: 90px;
+}
+
+ul::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+    .lead {
+      display: none;
+    }
+
+  }
+
+  @media only screen and (max-width: 850px) {
+    .logo {
+        display: none;
+    }
+  }
