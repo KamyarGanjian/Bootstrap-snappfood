@@ -1,5 +1,4 @@
 # Bootstrap-snappfood
-
 ### Inspired from snappfood
 
 <br>
